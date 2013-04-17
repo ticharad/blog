@@ -1,2 +1,9 @@
-<h1>Hello, Rails!</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<h1>Tomás Charad</h1>
+
+<%= image_tag 'matanzas.jpg'%>
+
+</body>
