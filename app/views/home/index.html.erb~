@@ -1,9 +1,8 @@
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-</head>
 <body>
-<h1>Tomás Charad</h1>
+<%= javascript_include_tag "/home/responsive_font_" %>
+<h1><span>Tomás Charad</span></h1>
 
+<div id=main_image>
 <%= image_tag 'matanzas.jpg'%>
-
+<div>
 </body>

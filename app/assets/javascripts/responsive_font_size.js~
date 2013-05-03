@@ -1,0 +1,5 @@
+repaint = $("h1");
+
+$(window).resize(function() {
+  repaint.css("z-index", 1);
+});
