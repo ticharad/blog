@@ -1,50 +1,67 @@
 <body>
-  <div class="bxslider_wrapper">
-    <div class="bxslider_horizontal">
-      <div class="slide">
+  <a id="main_up_btn" href='#' data-target='#myMatrix' data-action='slide' data-direction='up'>Up</a>
+  <div id='myMatrix' class='slideMatrix'>
+    <div class='slideMatrixContainer'>
+      <div class='slideMatrixItem' id='leftContent2' data-x='0' data-y='1'>
         <div id=main>
-          <h1 class="home_header" id="head1">Tomás Charad</h1>
+          <h1 id="home_header" id="head1">Tomás Charad</h1>
           <div id=main_image>
             <%= image_tag 'matanzas.jpg'%>
           </div>
         </div>
       </div>
-      <div class="slide">
-        <div class="bxslider_vertical">
-          <div class="slide">
-            <div id=main>
-              <h1 class="home_header" id="head1">Tomás Charad</h1>
-              <div id=main_image>
-                <%= image_tag 'matanzas.jpg'%>
-              </div>
-            </div>
-          </div>
-          <div class="slide">
-            <div id=main>
-              <h1 class="home_header" id="head2">Tomás Charad</h1>
-              <div id=main_image>
-                <%= image_tag 'matanzas2.jpg'%>
-              </div>
-            </div>
-          </div>
-          <div class="slide">
-            <div id=main>
-              <h1 class="home_header" id="head3">Tomás Charad</h1>
-              <div id=main_image>
-                <%= image_tag 'matanzas.jpg'%>
-              </div>
-            </div>
+      <div class='slideMatrixItem' id='leftContent1Up' data-x='1' data-y='2'>
+        <div id=main>
+          <h1 id="home_header" id="head1">Tomás Charad</h1>
+          <div id=main_image>
+            <%= image_tag 'algarrobo.jpg'%>
           </div>
         </div>
       </div>
-      <div class="slide">
+      <div class='slideMatrixItem' id='leftContent1' data-x='1' data-y='1'>
         <div id=main>
-          <h1 class="home_header" id="head3">Tomás Charad</h1>
+          <h1 id="home_header" id="head1">Tomás Charad</h1>
           <div id=main_image>
-            <%= image_tag 'matanzas.jpg'%>
+            <%= image_tag 'topocalma.jpg'%>
+          </div>
+        </div>
+      </div>
+      <div class='slideMatrixItem' id='leftContent1Down' data-x='1' data-y='0'>
+        <div id=main>
+          <h1 id="home_header" id="head1">Tomás Charad</h1>
+          <div id=main_image>
+            <%= image_tag 'brisas.jpg'%>
+          </div>
+        </div>
+      </div>
+      <div class='slideMatrixItem' id='mainContent' data-x='2' data-y='1'>
+        <div id=main>
+          <h1 id="home_header" id="head1">Tomás Charad</h1>
+          <div id=main_image>
+            <%= image_tag 'roca2.jpg'%>
+          </div>
+        </div>
+      </div>
+      <div class='slideMatrixItem' id='rightContent1' data-x='3' data-y='1'>
+        <div id=main>
+          <h1 id="home_header" id="head1">Tomás Charad</h1>
+          <div id=main_image>
+            <%= image_tag 'pucon.jpg'%>
+          </div>
+        </div>
+      </div>
+      <div class='slideMatrixItem' id='rightContent2' data-x='4' data-y='1'>
+        <div id=main>
+          <h1 id="home_header" id="head1">Tomás Charad</h1>
+          <div id=main_image>
+            <%= image_tag 'roca.jpg'%>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <a id="main_left_btn" href='#' data-target='#myMatrix' data-action='slide' data-direction='left'>Left</a>
+  <a id="main_right_btn" href='#' data-target='#myMatrix' data-action='slide' data-direction='right'>Right</a>
+  <a id="main_down_btn" href='#' data-target='#myMatrix' data-action='slide' data-direction='down'>Down</a>
 </body>
