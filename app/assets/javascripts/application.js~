@@ -14,11 +14,3 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require_directory .
-
-$(document).ready(function(){
-  $('.bxslider').bxSlider({
-    minSlides: 1,
-    maxSlides: 2,
-    slideMargin: 20
-  });
-});
