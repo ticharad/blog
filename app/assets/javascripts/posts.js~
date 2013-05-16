@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    minSlides: 1,
+    maxSlides: 1,
+    startSlide:0,
+    infiniteLoop: false,
+    hideControlOnEnd: true,
+    pager: false
+  });
+});

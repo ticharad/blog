@@ -1,17 +1,53 @@
+<%= javascript_include_tag "/assets/home/responsive_font_size" %>
+<%= javascript_include_tag "/assets/jquery.bxslider/jquery.bxslider.min.js" %>
+<%= stylesheet_link_tag "application" %>
 <body>
-  <%= javascript_include_tag "/home/responsive_font_size" %>
-  <h1 id=home_header>Tomás Charad</h1>
-  <div id=main>
-    <div id=main_image>
-    <%= image_tag 'matanzas.jpg'%>
-    </div>
-    <button class="btn" id=main_left_btn>Left</button>
-    <button class="btn" id=main_right_btn>Right</button>
-    <div class="row-fluid">
-      <div class="span12" style="text-align: center">
-        <button class="btn" id=main_down_btn>Down</button>
+  <div class="bxslider_wrapper">
+    <div class="bxslider_horizontal">
+      <div class="slide">
+        <div id=main>
+          <h1 class="home_header" id="head1">Tomás Charad</h1>
+          <div id=main_image>
+            <%= image_tag 'matanzas.jpg'%>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="bxslider_vertical">
+          <div class="slide">
+            <div id=main>
+              <h1 class="home_header" id="head1">Tomás Charad</h1>
+              <div id=main_image>
+                <%= image_tag 'matanzas.jpg'%>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div id=main>
+              <h1 class="home_header" id="head2">Tomás Charad</h1>
+              <div id=main_image>
+                <%= image_tag 'matanzas2.jpg'%>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div id=main>
+              <h1 class="home_header" id="head3">Tomás Charad</h1>
+              <div id=main_image>
+                <%= image_tag 'matanzas.jpg'%>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div id=main>
+          <h1 class="home_header" id="head3">Tomás Charad</h1>
+          <div id=main_image>
+            <%= image_tag 'matanzas.jpg'%>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
 </body>

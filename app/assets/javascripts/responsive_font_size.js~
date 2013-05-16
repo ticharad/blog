@@ -1,5 +1,3 @@
-repaint = $("h1");
-
-$(window).resize(function() {
-  repaint.css("z-index", 1);
+$(document).ready(function() {
+  $("h1").css("z-index", 1);
 });

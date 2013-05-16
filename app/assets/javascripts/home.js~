@@ -1,0 +1,29 @@
+//Sliders
+
+$(document).ready(function(){
+  $('.bxslider_horizontal').bxSlider({
+    minSlides: 1,
+    maxSlides: 1,
+    startSlide:1,
+    infiniteLoop: false,
+    hideControlOnEnd: true,
+    pager: false
+  });
+});
+
+$(document).ready(function(){
+  $('.bxslider_vertical').bxSlider({
+    minSlides: 1,
+    maxSlides: 1,
+    startSlide:0,
+    mode: 'vertical',
+    infiniteLoop: false,
+    hideControlOnEnd: true,
+    pager: false
+  });
+});
+
+//Adding classes to slider controls for identifying horizontal from vertical
+$(document).ready(function(){
+
+});
