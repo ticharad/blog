@@ -3,6 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 /* Smartphones (portrait and landscape) ----------- */
 
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
 .bxslider_wrapper{
 display: block;
 margin-left: auto;

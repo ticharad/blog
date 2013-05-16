@@ -15,7 +15,7 @@ $(document).ready(function(){
   $('.bxslider_vertical').bxSlider({
     minSlides: 1,
     maxSlides: 1,
-    startSlide:0,
+    startSlide:1,
     mode: 'vertical',
     infiniteLoop: false,
     hideControlOnEnd: true,

@@ -25,5 +25,7 @@ $(document).ready(function(){
 
 //Adding classes to slider controls for identifying horizontal from vertical
 $(document).ready(function(){
+  $('.bx-wrapper').find('.bxslider_vertical').offsetParent().offsetParent().find('.bx-controls-direction').children().addClass('bxslider_vertical_controls')
 
+  $('.bx-wrapper').find('.bxslider_horizontal').parent().parent().children('.bx-controls').find('a').addClass('bxslider_horizontal_controls')
 });
