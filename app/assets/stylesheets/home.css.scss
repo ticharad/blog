@@ -11,16 +11,16 @@ height: 100%;
 
 body{
 height: 95%;
-width: 88%;
+width: 80%;
 padding-left: 0px;
 padding-right: 0px;
-margin-left: 5%;
-margin-right: 5%;
+margin-left: 10%;
+margin-right: 10%;
 }
 
 #main{
 margin-top: 5%;
-height: 90%;
+height: 95%;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
@@ -36,7 +36,7 @@ max-height: 80%;
 
 #main_left_btn{
 top: 50%;
-width: 6%;
+width: 10%;
 left: calc(0% + 0.2em);
 position: absolute;
 font-size: 3vmin;
@@ -44,7 +44,7 @@ font-size: 3vmin;
 
 #main_right_btn{
 top: 50%;
-width: 6%;
+width: 10%;
 right: calc(0% + 0.2em);
 position: absolute;
 font-size: 3vmin;
@@ -52,23 +52,24 @@ text-align: right;
 }
 
 #main_down_btn{
-width: 88%%;
+width: 80%%;
 margin-left: auto;
 margin-right: auto;
 position: absolute;
 text-align: center;
 font-size: 3vmin;
-height: 2.5%;
+height: 5%;
 }
 
 #main_up_btn{
-width: 88%%;
+z-index: 1;
+width: 80%%;
 margin-left: auto;
 margin-right: auto;
 position: absolute;
 text-align: center;
 font-size: 3vmin;
-height: 2.5%;
+height: 5%;
 }
 
 #home_header{
@@ -80,6 +81,15 @@ line-height: 80%;
 margin-top: 0%;
 margin-bottom: 2.5vmin;
 }
+
+
+@media all and (max-width : 320px) {
+/* Styles */
+#main{
+margin-top: 15%;
+}
+}
+
 
 
 @media only screen
@@ -96,6 +106,7 @@ and (min-width : 321px) {
 @media only screen
 and (max-width : 320px) {
 /* Styles */
+
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen
@@ -132,4 +143,6 @@ and (min-width : 1824px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
+
+
 }
