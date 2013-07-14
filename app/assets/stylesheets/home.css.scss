@@ -37,7 +37,7 @@ max-height: 80%;
 #main_left_btn{
 top: 50%;
 width: 10%;
-left: calc(0% + 0.2em);
+left: 0%;
 position: absolute;
 font-size: 3vmin;
 }
@@ -45,7 +45,7 @@ font-size: 3vmin;
 #main_right_btn{
 top: 50%;
 width: 10%;
-right: calc(0% + 0.2em);
+right: 0%;
 position: absolute;
 font-size: 3vmin;
 text-align: right;
@@ -106,6 +106,9 @@ and (min-width : 321px) {
 @media only screen
 and (max-width : 320px) {
 /* Styles */
+#main{
+margin-top: 15%;
+}
 
 }
 /* iPads (portrait and landscape) ----------- */
@@ -143,6 +146,8 @@ and (min-width : 1824px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
-
+#main{
+margin-top: 15%;
+}
 
 }

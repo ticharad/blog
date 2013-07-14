@@ -37,7 +37,7 @@ max-height: 80%;
 #main_left_btn{
 top: 50%;
 width: 10%;
-left: calc(0% + 0.2em);
+left: 0%;
 position: absolute;
 font-size: 3vmin;
 }
@@ -45,7 +45,7 @@ font-size: 3vmin;
 #main_right_btn{
 top: 50%;
 width: 10%;
-right: calc(0% + 0.2em);
+right: 0%;
 position: absolute;
 font-size: 3vmin;
 text-align: right;
@@ -62,6 +62,7 @@ height: 5%;
 }
 
 #main_up_btn{
+z-index: 1;
 width: 80%%;
 margin-left: auto;
 margin-right: auto;
@@ -100,11 +101,17 @@ and (max-device-width : 480px) {
 @media only screen
 and (min-width : 321px) {
 /* Styles */
+#main{
+margin-top: 0%;
+}
 }
 /* Smartphones (portrait) ----------- */
 @media only screen
 and (max-width : 320px) {
 /* Styles */
+#main{
+margin-top: 15%;
+}
 
 }
 /* iPads (portrait and landscape) ----------- */
@@ -142,6 +149,8 @@ and (min-width : 1824px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
-
+#main{
+margin-top: 15%;
+}
 
 }
