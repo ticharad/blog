@@ -52,7 +52,7 @@ text-align: right;
 }
 
 #main_down_btn{
-width: 80%%;
+width: 80%;
 margin-left: auto;
 margin-right: auto;
 position: absolute;
@@ -63,7 +63,7 @@ height: 5%;
 
 #main_up_btn{
 z-index: 1;
-width: 80%%;
+width: 80%;
 margin-left: auto;
 margin-right: auto;
 position: absolute;
@@ -103,8 +103,7 @@ and (min-width : 321px) {
 /* Styles */
 }
 /* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
+@media only screen and (max-width : 320px) {
 /* Styles */
 #main{
 margin-top: 15%;
@@ -146,8 +145,6 @@ and (min-width : 1824px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
-#main{
-margin-top: 15%;
-}
+
 
 }
